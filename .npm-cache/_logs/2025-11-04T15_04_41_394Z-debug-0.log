@@ -1,0 +1,353 @@
+0 verbose cli /opt/homebrew/Cellar/node/23.10.0_1/bin/node /opt/homebrew/bin/npm
+1 info using npm@10.9.2
+2 info using node@v23.10.0
+3 silly config load:file:/opt/homebrew/lib/node_modules/npm/npmrc
+4 silly config load:file:/Users/lindaayoola/mental-load/.npmrc
+5 silly config load:file:/Users/lindaayoola/.npmrc
+6 silly config load:file:/opt/homebrew/etc/npmrc
+7 verbose title npm create vite@5.2.0 trello-couples --template react-ts
+8 verbose argv "create" "vite@5.2.0" "trello-couples" "--" "--template" "react-ts"
+9 verbose logfile logs-max:10 dir:/Users/lindaayoola/mental-load/.npm-cache/_logs/2025-11-04T15_04_41_394Z-
+10 verbose logfile /Users/lindaayoola/mental-load/.npm-cache/_logs/2025-11-04T15_04_41_394Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+13 http fetch GET 200 https://registry.npmjs.org/create-vite 73ms (cache miss)
+14 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+15 warn exec The following package was not found and will be installed: create-vite@5.2.0
+16 silly idealTree buildDeps
+17 silly fetch manifest create-vite@5.2.0
+18 silly packumentCache full:https://registry.npmjs.org/create-vite cache-miss
+19 http fetch GET 200 https://registry.npmjs.org/npm 118ms
+20 http fetch GET 200 https://registry.npmjs.org/create-vite 35ms (cache miss)
+21 silly packumentCache full:https://registry.npmjs.org/create-vite set size:undefined disposed:false
+22 silly placeDep ROOT create-vite@5.2.0 OK for:  want: 5.2.0
+23 silly reify moves {}
+24 silly audit bulk request { 'create-vite': [ '5.2.0' ] }
+25 http cache create-vite@https://registry.npmjs.org/create-vite/-/create-vite-5.2.0.tgz 1ms (cache hit)
+26 silly tarball no local data for create-vite@https://registry.npmjs.org/create-vite/-/create-vite-5.2.0.tgz. Extracting by manifest.
+27 warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/Users/lindaayoola/mental-load/.npm-cache/_npx/9790f5ae2f94cd40/node_modules/create-vite/template-svelte-ts/.vscode'
+28 silly tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/Users/lindaayoola/mental-load/.npm-cache/_npx/9790f5ae2f94cd40/node_modules/create-vite/template-svelte-ts/.vscode' [Error: ENOENT: no such file or directory, lstat '/Users/lindaayoola/mental-load/.npm-cache/_npx/9790f5ae2f94cd40/node_modules/create-vite/template-svelte-ts/.vscode'] {
+28 silly tar   errno: -2,
+28 silly tar   code: 'ENOENT',
+28 silly tar   syscall: 'lstat',
+28 silly tar   path: '/Users/lindaayoola/mental-load/.npm-cache/_npx/9790f5ae2f94cd40/node_modules/create-vite/template-svelte-ts/.vscode',
+28 silly tar   entry: ReadEntry {
+28 silly tar     _events: [Object: null prototype] { end: [Function (anonymous)] },
+28 silly tar     _eventsCount: 1,
+28 silly tar     _maxListeners: undefined,
+28 silly tar     writable: false,
+28 silly tar     readable: true,
+28 silly tar     extended: null,
+28 silly tar     globalExtended: null,
+28 silly tar     header: Header {
+28 silly tar       cksumValid: true,
+28 silly tar       needPax: false,
+28 silly tar       nullBlock: false,
+28 silly tar       block: null,
+28 silly tar       path: 'package/template-svelte-ts/.vscode/extensions.json',
+28 silly tar       mode: 420,
+28 silly tar       uid: 0,
+28 silly tar       gid: 0,
+28 silly tar       size: 50,
+28 silly tar       mtime: 1985-10-26T08:15:00.000Z,
+28 silly tar       cksum: 8712,
+28 silly tar       linkpath: '',
+28 silly tar       uname: '',
+28 silly tar       gname: '',
+28 silly tar       devmaj: 0,
+28 silly tar       devmin: 0,
+28 silly tar       atime: null,
+28 silly tar       ctime: null,
+28 silly tar       [Symbol(type)]: '0'
+28 silly tar     },
+28 silly tar     startBlockSize: 512,
+28 silly tar     blockRemain: 0,
+28 silly tar     remain: 0,
+28 silly tar     type: 'File',
+28 silly tar     meta: false,
+28 silly tar     ignore: false,
+28 silly tar     path: 'template-svelte-ts/.vscode/extensions.json',
+28 silly tar     mode: 438,
+28 silly tar     uid: 0,
+28 silly tar     gid: 0,
+28 silly tar     uname: '',
+28 silly tar     gname: '',
+28 silly tar     size: 50,
+28 silly tar     mtime: 1985-10-26T08:15:00.000Z,
+28 silly tar     atime: null,
+28 silly tar     ctime: null,
+28 silly tar     linkpath: '',
+28 silly tar     absolute: '/Users/lindaayoola/mental-load/.npm-cache/_npx/9790f5ae2f94cd40/node_modules/create-vite/template-svelte-ts/.vscode/extensions.json',
+28 silly tar     [Symbol(shapeMode)]: false,
+28 silly tar     [Symbol(kCapture)]: false,
+28 silly tar     [Symbol(flowing)]: false,
+28 silly tar     [Symbol(paused)]: true,
+28 silly tar     [Symbol(pipes)]: [],
+28 silly tar     [Symbol(buffer)]: [
+28 silly tar       <Buffer 7b 0a 20 20 22 72 65 63 6f 6d 6d 65 6e 64 61 74 69 6f 6e 73 22 3a 20 5b 22 73 76 65 6c 74 65 2e 73 76 65 6c 74 65 2d 76 73 63 6f 64 65 22 5d 0a 7d 0a>
+28 silly tar     ],
+28 silly tar     [Symbol(objectMode)]: false,
+28 silly tar     [Symbol(encoding)]: null,
+28 silly tar     [Symbol(async)]: false,
+28 silly tar     [Symbol(decoder)]: null,
+28 silly tar     [Symbol(EOF)]: true,
+28 silly tar     [Symbol(emittedEnd)]: false,
+28 silly tar     [Symbol(emittingEnd)]: false,
+28 silly tar     [Symbol(closed)]: false,
+28 silly tar     [Symbol(emittedError)]: null,
+28 silly tar     [Symbol(bufferLength)]: 50,
+28 silly tar     [Symbol(destroyed)]: false,
+28 silly tar     [Symbol(signal)]: undefined,
+28 silly tar     [Symbol(aborted)]: false
+28 silly tar   },
+28 silly tar   cwd: '/Users/lindaayoola/mental-load/.npm-cache/_npx/9790f5ae2f94cd40/node_modules/create-vite',
+28 silly tar   tarCode: 'TAR_ENTRY_ERROR'
+28 silly tar }
+29 warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/Users/lindaayoola/mental-load/.npm-cache/_npx/9790f5ae2f94cd40/node_modules/create-vite/template-svelte/.vscode'
+30 silly tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/Users/lindaayoola/mental-load/.npm-cache/_npx/9790f5ae2f94cd40/node_modules/create-vite/template-svelte/.vscode' [Error: ENOENT: no such file or directory, lstat '/Users/lindaayoola/mental-load/.npm-cache/_npx/9790f5ae2f94cd40/node_modules/create-vite/template-svelte/.vscode'] {
+30 silly tar   errno: -2,
+30 silly tar   code: 'ENOENT',
+30 silly tar   syscall: 'lstat',
+30 silly tar   path: '/Users/lindaayoola/mental-load/.npm-cache/_npx/9790f5ae2f94cd40/node_modules/create-vite/template-svelte/.vscode',
+30 silly tar   entry: ReadEntry {
+30 silly tar     _events: [Object: null prototype] { end: [Function (anonymous)] },
+30 silly tar     _eventsCount: 1,
+30 silly tar     _maxListeners: undefined,
+30 silly tar     writable: false,
+30 silly tar     readable: true,
+30 silly tar     extended: null,
+30 silly tar     globalExtended: null,
+30 silly tar     header: Header {
+30 silly tar       cksumValid: true,
+30 silly tar       needPax: false,
+30 silly tar       nullBlock: false,
+30 silly tar       block: null,
+30 silly tar       path: 'package/template-svelte/.vscode/extensions.json',
+30 silly tar       mode: 420,
+30 silly tar       uid: 0,
+30 silly tar       gid: 0,
+30 silly tar       size: 50,
+30 silly tar       mtime: 1985-10-26T08:15:00.000Z,
+30 silly tar       cksum: 8436,
+30 silly tar       linkpath: '',
+30 silly tar       uname: '',
+30 silly tar       gname: '',
+30 silly tar       devmaj: 0,
+30 silly tar       devmin: 0,
+30 silly tar       atime: null,
+30 silly tar       ctime: null,
+30 silly tar       [Symbol(type)]: '0'
+30 silly tar     },
+30 silly tar     startBlockSize: 512,
+30 silly tar     blockRemain: 0,
+30 silly tar     remain: 0,
+30 silly tar     type: 'File',
+30 silly tar     meta: false,
+30 silly tar     ignore: false,
+30 silly tar     path: 'template-svelte/.vscode/extensions.json',
+30 silly tar     mode: 438,
+30 silly tar     uid: 0,
+30 silly tar     gid: 0,
+30 silly tar     uname: '',
+30 silly tar     gname: '',
+30 silly tar     size: 50,
+30 silly tar     mtime: 1985-10-26T08:15:00.000Z,
+30 silly tar     atime: null,
+30 silly tar     ctime: null,
+30 silly tar     linkpath: '',
+30 silly tar     absolute: '/Users/lindaayoola/mental-load/.npm-cache/_npx/9790f5ae2f94cd40/node_modules/create-vite/template-svelte/.vscode/extensions.json',
+30 silly tar     [Symbol(shapeMode)]: false,
+30 silly tar     [Symbol(kCapture)]: false,
+30 silly tar     [Symbol(flowing)]: false,
+30 silly tar     [Symbol(paused)]: true,
+30 silly tar     [Symbol(pipes)]: [],
+30 silly tar     [Symbol(buffer)]: [
+30 silly tar       <Buffer 7b 0a 20 20 22 72 65 63 6f 6d 6d 65 6e 64 61 74 69 6f 6e 73 22 3a 20 5b 22 73 76 65 6c 74 65 2e 73 76 65 6c 74 65 2d 76 73 63 6f 64 65 22 5d 0a 7d 0a>
+30 silly tar     ],
+30 silly tar     [Symbol(objectMode)]: false,
+30 silly tar     [Symbol(encoding)]: null,
+30 silly tar     [Symbol(async)]: false,
+30 silly tar     [Symbol(decoder)]: null,
+30 silly tar     [Symbol(EOF)]: true,
+30 silly tar     [Symbol(emittedEnd)]: false,
+30 silly tar     [Symbol(emittingEnd)]: false,
+30 silly tar     [Symbol(closed)]: false,
+30 silly tar     [Symbol(emittedError)]: null,
+30 silly tar     [Symbol(bufferLength)]: 50,
+30 silly tar     [Symbol(destroyed)]: false,
+30 silly tar     [Symbol(signal)]: undefined,
+30 silly tar     [Symbol(aborted)]: false
+30 silly tar   },
+30 silly tar   cwd: '/Users/lindaayoola/mental-load/.npm-cache/_npx/9790f5ae2f94cd40/node_modules/create-vite',
+30 silly tar   tarCode: 'TAR_ENTRY_ERROR'
+30 silly tar }
+31 warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/Users/lindaayoola/mental-load/.npm-cache/_npx/9790f5ae2f94cd40/node_modules/create-vite/template-vue-ts/.vscode'
+32 silly tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/Users/lindaayoola/mental-load/.npm-cache/_npx/9790f5ae2f94cd40/node_modules/create-vite/template-vue-ts/.vscode' [Error: ENOENT: no such file or directory, lstat '/Users/lindaayoola/mental-load/.npm-cache/_npx/9790f5ae2f94cd40/node_modules/create-vite/template-vue-ts/.vscode'] {
+32 silly tar   errno: -2,
+32 silly tar   code: 'ENOENT',
+32 silly tar   syscall: 'lstat',
+32 silly tar   path: '/Users/lindaayoola/mental-load/.npm-cache/_npx/9790f5ae2f94cd40/node_modules/create-vite/template-vue-ts/.vscode',
+32 silly tar   entry: ReadEntry {
+32 silly tar     _events: [Object: null prototype] { end: [Function (anonymous)] },
+32 silly tar     _eventsCount: 1,
+32 silly tar     _maxListeners: undefined,
+32 silly tar     writable: false,
+32 silly tar     readable: true,
+32 silly tar     extended: null,
+32 silly tar     globalExtended: null,
+32 silly tar     header: Header {
+32 silly tar       cksumValid: true,
+32 silly tar       needPax: false,
+32 silly tar       nullBlock: false,
+32 silly tar       block: null,
+32 silly tar       path: 'package/template-vue-ts/.vscode/extensions.json',
+32 silly tar       mode: 420,
+32 silly tar       uid: 0,
+32 silly tar       gid: 0,
+32 silly tar       size: 75,
+32 silly tar       mtime: 1985-10-26T08:15:00.000Z,
+32 silly tar       cksum: 8386,
+32 silly tar       linkpath: '',
+32 silly tar       uname: '',
+32 silly tar       gname: '',
+32 silly tar       devmaj: 0,
+32 silly tar       devmin: 0,
+32 silly tar       atime: null,
+32 silly tar       ctime: null,
+32 silly tar       [Symbol(type)]: '0'
+32 silly tar     },
+32 silly tar     startBlockSize: 512,
+32 silly tar     blockRemain: 0,
+32 silly tar     remain: 0,
+32 silly tar     type: 'File',
+32 silly tar     meta: false,
+32 silly tar     ignore: false,
+32 silly tar     path: 'template-vue-ts/.vscode/extensions.json',
+32 silly tar     mode: 438,
+32 silly tar     uid: 0,
+32 silly tar     gid: 0,
+32 silly tar     uname: '',
+32 silly tar     gname: '',
+32 silly tar     size: 75,
+32 silly tar     mtime: 1985-10-26T08:15:00.000Z,
+32 silly tar     atime: null,
+32 silly tar     ctime: null,
+32 silly tar     linkpath: '',
+32 silly tar     absolute: '/Users/lindaayoola/mental-load/.npm-cache/_npx/9790f5ae2f94cd40/node_modules/create-vite/template-vue-ts/.vscode/extensions.json',
+32 silly tar     [Symbol(shapeMode)]: false,
+32 silly tar     [Symbol(kCapture)]: false,
+32 silly tar     [Symbol(flowing)]: false,
+32 silly tar     [Symbol(paused)]: true,
+32 silly tar     [Symbol(pipes)]: [],
+32 silly tar     [Symbol(buffer)]: [
+32 silly tar       <Buffer 7b 0a 20 20 22 72 65 63 6f 6d 6d 65 6e 64 61 74 69 6f 6e 73 22 3a 20 5b 22 56 75 65 2e 76 6f 6c 61 72 22 2c 20 22 56 75 65 2e 76 73 63 6f 64 65 2d 74 ... 25 more bytes>
+32 silly tar     ],
+32 silly tar     [Symbol(objectMode)]: false,
+32 silly tar     [Symbol(encoding)]: null,
+32 silly tar     [Symbol(async)]: false,
+32 silly tar     [Symbol(decoder)]: null,
+32 silly tar     [Symbol(EOF)]: true,
+32 silly tar     [Symbol(emittedEnd)]: false,
+32 silly tar     [Symbol(emittingEnd)]: false,
+32 silly tar     [Symbol(closed)]: false,
+32 silly tar     [Symbol(emittedError)]: null,
+32 silly tar     [Symbol(bufferLength)]: 75,
+32 silly tar     [Symbol(destroyed)]: false,
+32 silly tar     [Symbol(signal)]: undefined,
+32 silly tar     [Symbol(aborted)]: false
+32 silly tar   },
+32 silly tar   cwd: '/Users/lindaayoola/mental-load/.npm-cache/_npx/9790f5ae2f94cd40/node_modules/create-vite',
+32 silly tar   tarCode: 'TAR_ENTRY_ERROR'
+32 silly tar }
+33 warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/Users/lindaayoola/mental-load/.npm-cache/_npx/9790f5ae2f94cd40/node_modules/create-vite/template-vue/.vscode'
+34 silly tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/Users/lindaayoola/mental-load/.npm-cache/_npx/9790f5ae2f94cd40/node_modules/create-vite/template-vue/.vscode' [Error: ENOENT: no such file or directory, lstat '/Users/lindaayoola/mental-load/.npm-cache/_npx/9790f5ae2f94cd40/node_modules/create-vite/template-vue/.vscode'] {
+34 silly tar   errno: -2,
+34 silly tar   code: 'ENOENT',
+34 silly tar   syscall: 'lstat',
+34 silly tar   path: '/Users/lindaayoola/mental-load/.npm-cache/_npx/9790f5ae2f94cd40/node_modules/create-vite/template-vue/.vscode',
+34 silly tar   entry: ReadEntry {
+34 silly tar     _events: [Object: null prototype] { end: [Function (anonymous)] },
+34 silly tar     _eventsCount: 1,
+34 silly tar     _maxListeners: undefined,
+34 silly tar     writable: false,
+34 silly tar     readable: true,
+34 silly tar     extended: null,
+34 silly tar     globalExtended: null,
+34 silly tar     header: Header {
+34 silly tar       cksumValid: true,
+34 silly tar       needPax: false,
+34 silly tar       nullBlock: false,
+34 silly tar       block: null,
+34 silly tar       path: 'package/template-vue/.vscode/extensions.json',
+34 silly tar       mode: 420,
+34 silly tar       uid: 0,
+34 silly tar       gid: 0,
+34 silly tar       size: 75,
+34 silly tar       mtime: 1985-10-26T08:15:00.000Z,
+34 silly tar       cksum: 8110,
+34 silly tar       linkpath: '',
+34 silly tar       uname: '',
+34 silly tar       gname: '',
+34 silly tar       devmaj: 0,
+34 silly tar       devmin: 0,
+34 silly tar       atime: null,
+34 silly tar       ctime: null,
+34 silly tar       [Symbol(type)]: '0'
+34 silly tar     },
+34 silly tar     startBlockSize: 512,
+34 silly tar     blockRemain: 0,
+34 silly tar     remain: 0,
+34 silly tar     type: 'File',
+34 silly tar     meta: false,
+34 silly tar     ignore: false,
+34 silly tar     path: 'template-vue/.vscode/extensions.json',
+34 silly tar     mode: 438,
+34 silly tar     uid: 0,
+34 silly tar     gid: 0,
+34 silly tar     uname: '',
+34 silly tar     gname: '',
+34 silly tar     size: 75,
+34 silly tar     mtime: 1985-10-26T08:15:00.000Z,
+34 silly tar     atime: null,
+34 silly tar     ctime: null,
+34 silly tar     linkpath: '',
+34 silly tar     absolute: '/Users/lindaayoola/mental-load/.npm-cache/_npx/9790f5ae2f94cd40/node_modules/create-vite/template-vue/.vscode/extensions.json',
+34 silly tar     [Symbol(shapeMode)]: false,
+34 silly tar     [Symbol(kCapture)]: false,
+34 silly tar     [Symbol(flowing)]: false,
+34 silly tar     [Symbol(paused)]: true,
+34 silly tar     [Symbol(pipes)]: [],
+34 silly tar     [Symbol(buffer)]: [
+34 silly tar       <Buffer 7b 0a 20 20 22 72 65 63 6f 6d 6d 65 6e 64 61 74 69 6f 6e 73 22 3a 20 5b 22 56 75 65 2e 76 6f 6c 61 72 22 2c 20 22 56 75 65 2e 76 73 63 6f 64 65 2d 74 ... 25 more bytes>
+34 silly tar     ],
+34 silly tar     [Symbol(objectMode)]: false,
+34 silly tar     [Symbol(encoding)]: null,
+34 silly tar     [Symbol(async)]: false,
+34 silly tar     [Symbol(decoder)]: null,
+34 silly tar     [Symbol(EOF)]: true,
+34 silly tar     [Symbol(emittedEnd)]: false,
+34 silly tar     [Symbol(emittingEnd)]: false,
+34 silly tar     [Symbol(closed)]: false,
+34 silly tar     [Symbol(emittedError)]: null,
+34 silly tar     [Symbol(bufferLength)]: 75,
+34 silly tar     [Symbol(destroyed)]: false,
+34 silly tar     [Symbol(signal)]: undefined,
+34 silly tar     [Symbol(aborted)]: false
+34 silly tar   },
+34 silly tar   cwd: '/Users/lindaayoola/mental-load/.npm-cache/_npx/9790f5ae2f94cd40/node_modules/create-vite',
+34 silly tar   tarCode: 'TAR_ENTRY_ERROR'
+34 silly tar }
+35 http fetch GET 200 https://registry.npmjs.org/create-vite/-/create-vite-5.2.0.tgz 77ms (cache miss)
+36 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 218ms
+37 silly audit report {}
+38 verbose cwd /Users/lindaayoola/mental-load
+39 verbose os Darwin 24.6.0
+40 verbose node v23.10.0
+41 verbose npm  v10.9.2
+42 notice
+42 notice New major version of npm available! 10.9.2 -> 11.6.2
+42 notice Changelog: https://github.com/npm/cli/releases/tag/v11.6.2
+42 notice To update run: npm install -g npm@11.6.2
+42 notice  { force: true, [Symbol(proc-log.meta)]: true }
+43 verbose exit 0
+44 info ok
